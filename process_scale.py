@@ -6,7 +6,7 @@ from utilities import read_value
 if len(sys.argv) == 1:
     print("Error: please use format  : " \
     "" \
-    "python process_scale.py file.csv")
+    "python process_scale.py file.csv sampling_rate")
     sys.exit(1)
 
 filename = sys.argv[1]
