@@ -2,6 +2,12 @@ import datetime,sys, subprocess
 
 from utilities import read_value
 
+# usage steps
+# convert filtered file epoch times to human readable hh:ss format
+# calculate tps - this is unsorted
+# sort the values by time
+
+
 
 #check for no parameter, ie csv file supplied
 if len(sys.argv) == 1:
@@ -27,11 +33,6 @@ x = len(lines)
 
 print (f"number of lines to process is : {x}")
 
-
-
-#process the input file and change epoch time to human readable time
-#print out new times to a seperate file
-#redirect stdout from command line to a new file
 
 
 # Save original stdout
